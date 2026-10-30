@@ -1,6 +1,6 @@
 conv_1 = 832
-conv_2 = 640
-conv_3 = 1280
-fc_1 = 1024
-fc_2 = 160
-total = 3936
+conv_2 = 18496
+conv_3 = 73856
+fc_1 = 131136
+fc_2 = 650
+total = conv_1 + conv_2 + conv_3 + fc_1 + fc_2
